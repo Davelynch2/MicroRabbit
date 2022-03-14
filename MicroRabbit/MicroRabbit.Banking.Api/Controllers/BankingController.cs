@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace MicroRabbit.Banking.Api.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class BankingController : ControllerBase
     {
         private readonly IAccountService _accountService;
